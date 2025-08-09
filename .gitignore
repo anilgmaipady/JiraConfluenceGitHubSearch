@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Archives
+lambdas/*.zip
+
+# Python
+__pycache__/
+*.pyc
+
+# Lambda layers (dependencies - build locally)
+layers/ 

@@ -41,6 +41,8 @@ pip3 install -t layers/python/lib/python3.11/site-packages requests urllib3 boto
 (cd layers && zip -r9 python_deps.zip python)
 ```
 
+**Note**: The `layers/` directory is in `.gitignore` - it contains dependencies that should be built locally, not committed to version control.
+
 Then apply Terraform.
 
 ## Routes
